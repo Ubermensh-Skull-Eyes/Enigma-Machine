@@ -5,8 +5,8 @@ class Reflector:
         self.right = wiring
         self.notch = notch
     def reflect(self, signal):
-        letter = self.right[signal]
-        signal = self.left.find(letter)
+        letter = self.left[signal]
+        signal = self.right.find(letter)
         return signal
     def draw(self,screen ,x,y,w,h,font):
                     r = pygame.Rect(x,y,w,h)

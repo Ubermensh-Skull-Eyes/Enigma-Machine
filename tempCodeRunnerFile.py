@@ -1,0 +1,6 @@
+k.draw(SCREEN,1230,80,100,600,text)
+    # p.draw(SCREEN,980,80,150,600,text)
+    # III.draw(SCREEN,730,80,150,600,text)
+    # II.draw(SCREEN,480,80,150,600,text)
+    # I.draw(SCREEN,230,80,150,600,text)
+    # reflex.draw(SCREEN,30,80,100,600,text)

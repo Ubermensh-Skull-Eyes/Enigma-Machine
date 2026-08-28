@@ -5,14 +5,15 @@ class Rotor:
         self.right = wiring
         self.notch = notch
     def forward(self,signal):
-                letter = self.right[signal]
-                signal = self.left.find(letter)
-                return signal
+        letter = self.right[signal]
+        signal = self.left.find(letter)
+        return signal
         
     def backward(self,signal):
         letter = self.left[signal]
         signal = self.right.find(letter)
         return signal
+    
     def rotate(self , n=1,forward = True):
         if forward:
             for i in range(n):
